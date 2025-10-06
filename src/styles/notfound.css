@@ -1,0 +1,36 @@
+.notfound {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.notfound-content h1 {
+  font-size: 8rem;
+  color: var(--primary);
+  margin-bottom: 20px;
+}
+
+.notfound-content h2 {
+  font-size: 2rem;
+  color: var(--secondary);
+  margin-bottom: 20px;
+}
+
+.notfound-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: var(--text-light);
+}
+
+@media (max-width: 768px) {
+  .notfound-content h1 {
+    font-size: 5rem;
+  }
+  
+  .notfound-content h2 {
+    font-size: 1.5rem;
+  }
+}

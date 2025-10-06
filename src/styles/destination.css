@@ -1,0 +1,49 @@
+.destinations {
+  background: var(--light);
+}
+
+.destinations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.destination-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.destination-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.destination-img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.destination-content {
+  padding: 20px;
+}
+
+.destination-content h3 {
+  margin-bottom: 10px;
+  color: var(--secondary);
+}
+
+.destination-content p {
+  color: var(--text-light);
+  margin-bottom: 15px;
+}
+
+.destination-price {
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
